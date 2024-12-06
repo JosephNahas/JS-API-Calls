@@ -19,10 +19,12 @@
     <form id="form">
         <input type="text" id="post-title" placeholder="enter title">
         <textarea name="postBody" id="post-body" rows='10' placeholder="enter your content here...."></textarea>
-        <button type="submit">Submit</button>
+        <input type="text" id="post-id" placeholder="update id">
+        <button id="submit-btn">Submit</button>
+        <button id="update-btn">Update</button>
     </form>
     <p id="error-msg"></p>
-    <p id="response" hidden="hidden">The following data was successfully posted</p>
+    <p id="response" hidden="hidden"></p>
     <h3 id="response-title"></h3>
     <h3 id="response-body"></h3>
 </body>
