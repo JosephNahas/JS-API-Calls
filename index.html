@@ -16,8 +16,15 @@
         <h3 id="title"></h3>
         <p id="body"></p>
     </div>
-    <form id="form"></form>
+    <form id="form">
+        <input type="text" id="post-title" placeholder="enter title">
+        <textarea name="postBody" id="post-body" rows='10' placeholder="enter your content here...."></textarea>
+        <button type="submit">Submit</button>
+    </form>
     <p id="error-msg"></p>
+    <p id="response" hidden="hidden">The following data was successfully posted</p>
+    <h3 id="response-title"></h3>
+    <h3 id="response-body"></h3>
 </body>
 
 </html>

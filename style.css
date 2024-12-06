@@ -1,0 +1,14 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#post-title, #form button{
+    width: 5%
+}
+
+#post-body{
+    width: 25%
+}
